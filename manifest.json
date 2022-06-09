@@ -1,0 +1,17 @@
+{
+  "name": "Automattic Join Google Meet",
+   "manifest_version": 3,
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1",
+  "content_scripts": [
+    {
+      "js": ["popup.js"],
+      "matches": ["*://meet.google.com/*"]
+    }
+  ],
+  "description": "Hello everyone. I make this extension for you. If you have daily meet in google meet. so this extension really help you to automatic admit user. It's save your lot's of time to admin one by one user manually.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgzaulZbshMqEPFTpdk5Z+WG3JHFDsLl3TVvD4xAXrAAGjvD/YpIiSNG7+0TbIuJBASSaJTbMzaH53YLqQvSvGj9wc9y0apVSraNh2J2Ks6OcV3ISg0km3mDyJdLgzQUkikEn+IhJwuKz51N5Ngni/8kdVhADWaEKjflmN9CebDY6eNzfuMEdLNHn3WIG0foquOYlmxwMqq8txIiXFLgvCqYI4A15NHcihcLuFOp+s9AuEf0gCinGm5idSQseRpOLo5LZo06i7WGU3WtyUMA/iSf/Qfn/MKeR3VzaPLNOrsmpG54oMg8xfs90kwRShYKwz4zyJVccWLPYCpPwZM/eqwIDAQAB"
+}
